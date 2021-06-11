@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.heading{
+    font-family: fangsong;
+}
+.main{
+    display: inline-block;
+    margin: auto;
+    padding: 20px 20px;
+    border:2px solid grey;
+    background-color: #455777;
+    border-radius: 5px;
+    box-shadow: 6px 6px 3px 2px #7b7272;
+    width: 70%;
+
+}
+.section{
+    margin:20px 0px 20px 0px;
+}
+.input{
+    margin: 10px 0px 0px 10px;
+    width: 75%;
+    border-bottom:2px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 0px #8f8d8d;
+    height: 30px;
+}
+.btn{
+    margin: 7px 2px 7px 2px;
+    border-bottom:2px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 0px #8f8d8d;
+    cursor: pointer;
+}
+#section3{
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    height: 20px;
+    margin:auto;
+}
