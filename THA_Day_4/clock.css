@@ -34,26 +34,20 @@ body{
     width: 11rem;
 }
 #article1{
-    transform: rotate(45deg);
     transform-origin: left;
 }
 #article2{
-    transform: rotate(135deg);
     transform-origin: left;
 }
 #article3{
-    transform: rotate(1deg);
     transform-origin: left;
-    transition: background-color,transform 10s ease;
 }
-#article3:hover{
-    transform: rotate(360deg);
-    background-color: red;
-}
+
 @media only screen and (max-width:500px) {
     #main{
         width: 300px;
         height: 300px;
+        border:30px solid red;
     }
     .article{
         width: 8rem;
@@ -63,6 +57,7 @@ body{
     #main{
         width: 200px;
         height: 200px;
+        border:25px solid red;
     }
     .article{
         width: 6rem;
