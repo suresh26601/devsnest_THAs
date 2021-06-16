@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.forgrid{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(20,auto);
+    grid-template-rows: repeat(20,auto);
+    background-color: rgb(104, 104, 42);
+}
+#main{
+    top: 2px;
+    bottom: 2px;
+}
+.sec{
+    border: 1px solid rgb(255, 81, 81);
+}
+.secred{
+    background-color: red;
+}
+.secwhite{
+    background-color: white;
+}
