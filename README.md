@@ -1,12 +1,19 @@
-Day 1:___________Letter by plane _________________
 
-Day 2:_____________day 1+ adding css_______________
+DEVSNEST THAs
+===
 
-Day 3:____________CV using HTML & CSS________________
-
-Day 4:____________static clock________________
-
-Day 5:____________simle calculater using html css and js________________
-
-Day 6:_____________completed short tasks based on js_______________
+Day 1: ***PLANE LETTER USING HTML***
+---
+Day 2: ***ADD STYLING IN PREVIOUS LETTER THA***
+---
+Day 3: ***MAKE CV***
+---
+Day 4: ***STATIC WATCH***
+---
+Day 5: ***CALCULATOR FOR CALCULATION OF TWO INPUTS***
+---
+Day 6: ***COPMLETE TASK IN task.txt***
+---
+Day 7: ***COPMLETE TASK IN task.txt***
+---
 
