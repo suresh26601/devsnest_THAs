@@ -9,4 +9,5 @@ main.addEventListener('click',(e)=>{
         p=p+1;
     }
     show1.innerHTML=p;
+    show2.innerHTML=36-p;
 })
