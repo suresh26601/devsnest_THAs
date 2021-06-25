@@ -12,7 +12,8 @@ let countTry=0;
 let countCards=0;
 main.addEventListener('click',(e)=>{
     let eTarget=e.target;
-    if(eTarget.classList.contains('sec')&&(idArray.length===0 || idArray[0]!==eTarget)){
+    if(eTarget.classList.contains('sec')&&(idArray.length===0|| idArray[0]!==eTarget) && idArray.length<2){
+	idArray.push(eTarget);
         countTry+=1;
         if (countTry>30){
             alert("You Lost,Play Again....");
@@ -23,7 +24,6 @@ main.addEventListener('click',(e)=>{
         eTarget.style.cssText="transform: rotateY(0deg);color: white";
         let val=eTarget.innerHTML;
         storeArray.push(val);
-        idArray.push(eTarget);
         if (storeArray.length===2){
             setTimeout(decide,500);
         }
