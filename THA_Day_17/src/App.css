@@ -1,0 +1,32 @@
+#root{
+  width: 100vw;
+  height: auto;
+}
+.Main{
+  margin: auto;
+  width: 35%;
+  height: auto;
+}
+h1{
+  text-align: center;
+}
+.header{
+  margin:20px 0px 15px 0px ;
+}
+.cards{
+  width:100%;
+  height:400px;
+  padding: 5px 20px;
+  overflow-y: scroll;
+  box-shadow: 2px 3px 9px -1px #000;
+}
+.Card{
+  background: #6b8e23;
+  padding: 20px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+}
+p{
+  font-weight: bolder;
+}

@@ -1,0 +1,53 @@
+body{
+  width: 100vw;
+  height: 100vh;
+}
+#root{
+  width: 100%;
+  display: flex;
+justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/* ***************proOne***** */
+.maindiv{
+  height: 240px;
+  width:240px;
+  margin: auto;
+  box-shadow: 0px 0px 0px 20px black;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
+}
+.sdiv1:nth-child(odd),.sdiv3:nth-child(odd),.sdiv5:nth-child(odd),.sdiv7:nth-child(odd){
+  background-color: black;
+}
+.sdiv2:nth-child(even),.sdiv4:nth-child(even),.sdiv6:nth-child(even),.sdiv8:nth-child(even){
+  background-color: black;
+
+}
+.proOne{
+  width: 50%;
+}
+/* **********proTwo**************** */
+.memediv{
+  box-shadow: 3px 5px 6px -2px #000, -6px -7px 6px -2px #ecdede;
+    width: 320px;
+    height: 300px;
+    padding: 5px;
+    margin: auto;
+  }
+  .divImg{
+    width: 100%;
+    height: 58%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+}
+h2{
+  margin: 20px 0px;
+}
+.proTwo{
+  width: 50%;
+}

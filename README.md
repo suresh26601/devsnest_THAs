@@ -1,20 +1,20 @@
-![frontend-devsnest](https://socialify.git.ci/Team-Focussed/frontend-devsnest/image?description=1&font=Raleway&forks=1&issues=1&language=1&owner=1&pattern=Diagonal%20Stripes&pulls=1&stargazers=1&theme=Dark)
+
 
 DEVSNEST THAs
 ===
 [name](name.djfk)<br>
-Day 1: ***PLANE LETTER USING HTML***
+THA_Day_1: ***PLANE LETTER USING HTML***<br/><a href="https://shunya-project1-devs.netlify.app/">Day1</a>
 ---
-Day 2: ***ADD STYLING IN PREVIOUS LETTER THA***
+THA_Day_2: ***ADD STYLING IN PREVIOUS LETTER THA***<br/><a >Day2</a>
 ---
-Day 3: ***MAKE CV***
+THA_Day_3: ***MAKE CV***<br/><a href="https://shunya-project2-devs.netlify.app/">Day3</a>
 ---
-Day 4: ***STATIC WATCH***
+THA_Day_4: ***STATIC WATCH***<br/><a href="https://shunya-project3-devs.netlify.app/">Day4</a>
 ---
-Day 5: ***CALCULATOR FOR CALCULATION OF TWO INPUTS***
+THA_Day_5: ***CALCULATOR :FOR CALCULATION OF TWO INPUTS***<br/><a>Day5</a>
 ---
-Day 6: ***COPMLETE TASK IN task.txt***
+THA_Day_6: ***hb***<br/><a href="">Day6</a>
 ---
-Day 7: ***COPMLETE TASK IN task.txt***
+THA_Day_7: ***COPMLETE TASK IN task.txt***<br/><a >Day7</a>
 ---
 

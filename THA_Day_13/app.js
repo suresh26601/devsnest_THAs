@@ -20,15 +20,32 @@ function dataImg(imgs){
     showIcon.innerHTML=allimg;
 
 }
-forFetch();
+
+showIcon.addEventListener("click",(e)=>{
+
+if(e.target.tagName=="IMG"){
+
+main.style.cssText=`background:url(${e.target.getAttribute('src')}) center center no-repeat;background-size:contain`
+
+}
+})
+
 let check=true;
 divAdd.addEventListener('click',()=>{
+    	
     if(check){
-        showIcon.style.display="grid";
+        showIcon.style.bottom="60px";
         check=false
+	forFetch();
     }
     else{
-        showIcon.style.display="none";
+        showIcon.style.bottom="-290px";
+        check=true;
+    }
+})
+main.addEventListener("click",(e)=>{
+    if(e.target.id==="main"&& !check){
+        showIcon.style.bottom="-290px";
         check=true;
     }
 })
