@@ -15,6 +15,6 @@ THA_Day_5: ***CALCULATOR :FOR CALCULATION OF TWO INPUTS***<br/><a>Day5</a>
 ---
 THA_Day_6: ***hb***<br/><a href="">Day6</a>
 ---
-THA_Day_7: ***COPMLETE TASK IN task.txt***<br/><a >Day7</a>
+THA_Day_7: ***COPMLETED TASK(in task.txt)***<br/><a >Day7</a>
 ---
 
