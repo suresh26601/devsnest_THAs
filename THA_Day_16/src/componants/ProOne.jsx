@@ -8,7 +8,7 @@ function ProOne(){
       { 
         arr.map(element => {
             return (arr.map((e,v)=>{
-                return <div key={v} className={`sdiv${element}`}></div>
+                return <div key={v} className={`sdiv`}></div>
             }))
         })
       }

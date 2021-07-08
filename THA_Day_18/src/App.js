@@ -1,15 +1,16 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
-import ProOne from "./componants/ProOne";
+import Boxes from "./componants/Boxes"
 // ***main function*********
 
-
 function App() {
-  
   return (
     <>
-    <ProOne/>
-    
+      <div className="proOne">
+        <div className="maindiv" id="mID">
+          <Boxes/>
+        </div>
+      </div>
     </>
   );
 }
