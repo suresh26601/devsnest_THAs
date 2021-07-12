@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  color: #5297a7;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  width: 100vw;
+  background: #e0e0e0;
+}
+div {
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+h1 {
+  letter-spacing: 3px;
+  padding: 10px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.buttonDiv {
+  margin: auto;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 360px) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+button {
+  padding: 5px 15px;
+  border: none;
+  margin: 5px auto;
+  border-radius: 4px;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 1px #5297a7;
+}
+button:hover {
+  box-shadow: 0px 0px 4px 1px #5297a7;
+}
+.Cards {
+  padding: 50px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+  grid-gap: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+article {
+  padding: 5px;
+  width: 250px;
+  border-radius: 4px;
+  background: #e0e0e0;
+  box-shadow: 0px 0px 1px #5297a7, 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+article:hover {
+  box-shadow: 0px 0px 1px 1px #5297a7, 5px 5px 10px #bdbdbd,
+    -5px -5px 10px #f1f1f1;
+}
+img {
+  object-fit: cover;
+  height: 175px;
+  border-radius: 4px;
+  width: 100%;
+}
+/* **********media******** */
+@media screen and (max-width: 360px) {
+  .buttonDiv {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+.dishDscr {
+  padding: 5px 1px;
+  display: grid;
+  gap: 4px;
+}
+.dishDscr h4 {
+  color: steelblue;
+}
+.dishDscr h6 {
+  color: yellowgreen;
+}
+.dishDscr h5 {
+  color: #93a1a5;
+}
+/* ********Track********* */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(165, 159, 159, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
