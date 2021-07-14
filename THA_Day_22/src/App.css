@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+section {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+.meme {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

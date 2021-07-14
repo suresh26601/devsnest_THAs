@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#root {
+  width: 60%;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 5px;
+  display: grid;
+  text-align: center;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+button {
+  border: none;
+  padding: 5px 10px;
+  margin: 0px 5px;
+  border-radius: 4px;
+  background-color: yellowgreen;
+}
+#root:hover {
+  box-shadow: -5px -5px 10px 2px rgb(241, 241, 241),
+    5px 5px 10px 2px rgb(190, 190, 190);
+}
+button:hover {
+  box-shadow: -5px -5px 10px 1px rgb(253, 235, 215),
+    5px 5px 10px 1px rgb(177, 168, 154);
+}
+@media screen and (max-width: 500px) {
+  #root {
+    grid-template-columns: 1fr;
+  }
+}
