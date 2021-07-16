@@ -10,7 +10,7 @@ export const Meme = ({ urlIs, setUseUrl, fetchapi }) => {
   });
   const generateFetchapi = async (url) => {
       try{
-    const res = await fetch(url);
+    const res = await fetch(url).catch(error=>{throw error;});
     const data = await res.json();
         const newUrl = data.data.url;
         setUseUrl([{ ...urlIs, url: newUrl }]);
@@ -44,7 +44,8 @@ export const Meme = ({ urlIs, setUseUrl, fetchapi }) => {
             <input
               type="text"
               key={inx}
-              onChange={(e) => {
+               placeholder={`Enter Value ${inx+1}`}
+                onChange={(e) => {
                 const newBox = memeValue.boxes;
                 newBox[inx] = { text: e.target.value };
                 setMemeValue({ ...memeValue, boxes: newBox });
@@ -57,36 +58,28 @@ export const Meme = ({ urlIs, setUseUrl, fetchapi }) => {
               setMeme(!meme);
             }}
           >
-            go back
+            Go Back
           </button>
           <button
             onClick={() => {
               newGeneratedMeme(memeValue);
             }}
           >
-            generate
+           Generate Meme
           </button>
         </div>
       </article>
     );
   }
   if(!meme){
-      const styleMemes={
-        background: `url(${urlIs.url})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-         width: '30.33%',
-  display: 'inline-block',
-  height: '200px'
-      }
   return (
     <div
       className="memeDiv"
-      style={styleMemes}
       onClick={() => {
         setUseUrl([urlIs]);
         setMeme(!meme);
-      }}
-    ></div>
+      }}>
+      <img src={urlIs.url} alt="" />
+    </div>
   );}
 };

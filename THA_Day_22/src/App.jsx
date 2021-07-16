@@ -23,6 +23,7 @@ export const App = () => {
     return (
         <main>
             <section>
+                <h1 style={{color:'whitesmoke'}}>Meme Generator</h1>
             {
                 useUrl.map((urlIs)=>{
                    return <Meme key={urlIs.id} urlIs={urlIs} setUseUrl={setUseUrl} fetchapi={fetchapi}/>
