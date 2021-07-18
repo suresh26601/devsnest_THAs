@@ -19,6 +19,7 @@ section {
 .meme {
   margin: auto;
   height: 300px;
+  width: 80%;
   border-radius: 15px;
   padding: 2px 2px;
   border: 1px solid #f6f6f6;
@@ -68,4 +69,14 @@ button {
 }
 button:hover {
   box-shadow: 1px 1px 2px whitesmoke, -1px -1px 2px 1px #868686;
+}
+@media screen and (max-width: 600px) {
+  .memeDiv {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .memeDiv {
+    width: 93.33%;
+  }
 }

@@ -10,7 +10,6 @@ export const App = () => {
         const dataUrl= data.data.memes;
         setUseUrl(dataUrl)
         setLoad(false)
-
     }
     
     useEffect(() => {
