@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100vw;
+}
+main {
+  width: 100%;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(250, 209, 148);
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+  color: coral;
+}
