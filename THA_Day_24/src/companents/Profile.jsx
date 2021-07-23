@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Contact = () => {
+export const Profile = () => {
     return (
         <div>
-            i am Contact....
+            <h3>Profile</h3>
         </div>
     )
 }

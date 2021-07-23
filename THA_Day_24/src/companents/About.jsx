@@ -3,7 +3,7 @@ import React from 'react'
 export const About = () => {
     return (
         <div>
-            i am about....
+            <h3>About: Public Route</h3>
         </div>
     )
 }
