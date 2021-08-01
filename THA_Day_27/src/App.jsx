@@ -1,30 +1,33 @@
-import React from "react";
+import React,{useState} from "react";
 import "./App.css"
 import { useDispatch, useSelector } from "react-redux";
 
 export const App = () => {
   const stateTodo = useSelector((state) => state.changeTodo);
+  const [takeInput, setTakeInput] = useState("")
   console.log(stateTodo)
   const dispatch = useDispatch();
  
   return (
-    <main className="w-screen flex  p-10 justify-center ">
-     <section className="w-1/2  capitalize">
-       <article className="bg-blue-400 p-8 border-blue-700 border-2 rounded flex justify-around text-center">
+    <main className="w-screen flex  p-10 justify-center bg-blue-100 h-screen overflow-y-auto">
+     <section className="w-1/2  capitalize overflow-visible ">
+       <article className="bg-blue-400 p-8 border-blue-700 border-2 rounded flex justify-around text-center ">
  <input className="border-blue-700 border rounded w-3/5 px-3 py-2"
         type="text"
-        onChange={(e) => dispatch({ type: "INPUT", payload: e.target.value })}
-        value={stateTodo.inpVal}
+        onChange={(e) => setTakeInput(e.target.value)}
+        value={takeInput}
       />
       <button className="border-2 rounded p-2 bg-blue-600 border-blue-700 hover:bg-blue-500 w-2/6 text-white" 
         onClick={() =>
-          dispatch({
+          {dispatch({
             type: "ADD",
             payload: {
               id: new Date().getTime().toString(),
-              todo: stateTodo.inpVal,
+              todo: takeInput,
             },
           })
+        setTakeInput('')
+        }
         }
       >
         Add Todo

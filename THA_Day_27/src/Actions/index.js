@@ -1,6 +1,6 @@
-export const inpValueType=()=>{
-    return  {type: "INPUT"}
-}
+// export const inpValueType=()=>{
+//     return  {type: "INPUT"}
+// }
 export const addBtnType=()=>{
     return {type:"ADD"}
 }
