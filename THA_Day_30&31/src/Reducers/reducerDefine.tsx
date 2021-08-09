@@ -1,7 +1,8 @@
 import {initialStateInterface,dataInterface} from '../components/types'
 const initialState :initialStateInterface ={
     dataGallary:[],
-    itemData:[]
+    itemData:[],
+    addToCart:[]
 }
 
 export const InitialStateReducers=(state=initialState,action:{type:string,payload:dataInterface[]}):initialStateInterface=>{
@@ -10,6 +11,8 @@ export const InitialStateReducers=(state=initialState,action:{type:string,payloa
             return {...state,dataGallary:action.payload}
         case 'SETITEM':
             return {...state,itemData:action.payload}
+        case 'ADDCART':
+            return {...state,addToCart:[...state.addToCart,...action.payload]}
         default:
             return state;
     }

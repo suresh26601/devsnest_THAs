@@ -4,11 +4,13 @@ export interface dataInterface {
     category: string,
     price: number,
     img: string,
-    desc: string 
+    desc: string,
+    addItem?:number
 }
 export interface initialStateInterface{
     dataGallary:dataInterface[],
-    itemData:dataInterface[]
+    itemData:dataInterface[],
+    addToCart:dataInterface[]
 }
 // export interface IdataInitializeAction{
 //     type:'INITIALIZE',

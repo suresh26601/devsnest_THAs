@@ -1,5 +1,4 @@
-import {dataInitialize} from './actionType'
-import {itemDataSet} from './actionType'
-const allActionsArr ={dataInitialize,itemDataSet}
+import {dataInitialize,itemDataSet,addToCartAction} from './actionType'
+const allActionsArr ={dataInitialize,itemDataSet,addToCartAction}
 export {allActionsArr};
 

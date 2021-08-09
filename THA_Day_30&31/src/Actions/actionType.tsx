@@ -12,3 +12,9 @@ export const itemDataSet=(itemData:dataInterface|unknown)=>{
         payload:[itemData]
     }
 }
+export const addToCartAction=(itemData:dataInterface,itemVal:number)=>{
+    return {
+        type:'ADDCART',
+        payload:[{...itemData,addItem:itemVal}]
+    }
+}
