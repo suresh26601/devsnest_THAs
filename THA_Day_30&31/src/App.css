@@ -23,8 +23,10 @@ main > .mainDiv {
   display: flex;
   background: coral;
   justify-content: space-between;
+
+  overflow-y: hidden;
   align-items: center;
-  padding: 15px 20px;
+  padding: 30px 20px;
 }
 nav > h1 {
   color: steelblue;
@@ -47,7 +49,6 @@ nav button {
 }
 main .main {
   padding: 20px;
-  margin: 20px 0px;
   align-self: center;
   display: flex;
   flex-wrap: wrap;
@@ -151,9 +152,6 @@ aside > button {
   display: flex;
   justify-content: space-between;
 }
-button:hover {
-  background-color: rgb(110, 163, 206);
-}
 span {
   display: inline-block;
   width: 30px;
@@ -163,11 +161,46 @@ span {
 .cart {
   position: absolute;
   right: -310px;
+  padding: 5px;
+  background: steelblue;
   width: 300px;
+  border-left: 2px solid aliceblue;
   height: 100vh;
-  background-color: whitesmoke;
+  transition: right 500ms;
   text-align: center;
 }
 .cartShow {
   transform: translateX(-300px);
+}
+.cart > button {
+  border-radius: 5px;
+  padding: 8px 13px;
+  display: block;
+  border: none;
+  font-weight: 900;
+  color: coral;
+}
+.cartItems {
+  width: 100%;
+  height: 100%;
+}
+.cartItem {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  padding: 3px;
+  color: #eaeeed;
+  margin-top: 15px;
+  font-family: monospace;
+  text-transform: capitalize;
+  background: coral;
+}
+.cartItem img {
+  width: 100%;
+  height: 60px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: rgb(110, 163, 206);
 }

@@ -18,3 +18,9 @@ export const addToCartAction=(itemData:dataInterface,itemVal:number)=>{
         payload:[{...itemData,addItem:itemVal}]
     }
 }
+export const removeCartItem=(itemData:dataInterface)=>{
+    return {
+        type:'REMOVEITEM',
+        payload:[itemData]
+    }
+}

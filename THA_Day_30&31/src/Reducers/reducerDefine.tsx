@@ -13,6 +13,10 @@ export const InitialStateReducers=(state=initialState,action:{type:string,payloa
             return {...state,itemData:action.payload}
         case 'ADDCART':
             return {...state,addToCart:[...state.addToCart,...action.payload]}
+        case 'REMOVEITEM':
+            console.log("sdad");
+            
+            return {...state,addToCart:state.addToCart.filter(item=>item !== action.payload[0])}
         default:
             return state;
     }
