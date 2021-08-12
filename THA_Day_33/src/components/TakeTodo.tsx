@@ -3,7 +3,7 @@ export interface TakeTodoInterface{
     id:string,
     task:string
 }
-interface PropsInterface {
+export interface PropsInterface {
     allTodos:TakeTodoInterface[],
     setAllTodos:React.Dispatch<React.SetStateAction<TakeTodoInterface[]>>
 }

@@ -10,9 +10,9 @@ export const App = () => {
             <main>
        <themeContext.Provider value={{isDark,setIsDark}}>
             <TakeTodo allTodos={allTodos} setAllTodos={setAllTodos}/>
-            <ShowTodos allTodos={allTodos}/>
+            <ShowTodos allTodos={allTodos} setAllTodos={setAllTodos}/>
        </themeContext.Provider>
-       <button className="mode" onClick={()=>setIsDark(!isDark)}>{isDark?"Dark":"Light"}</button>
+       <button className="mode" onClick={()=>setIsDark(!isDark)}>{isDark?"Light":"Dark"}</button>
         </main>
     )
 }

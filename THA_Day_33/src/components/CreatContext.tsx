@@ -1,7 +1,7 @@
 import {createContext} from 'react'
 
 export const initialTheme ={
-    isDark:true,
+    isDark:false,
     setIsDark:(theme:boolean)=>{}
 }
 export const themeContext = createContext<typeof initialTheme>(initialTheme)
