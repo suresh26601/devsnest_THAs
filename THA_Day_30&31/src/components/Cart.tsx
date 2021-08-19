@@ -9,7 +9,7 @@ export const Cart = ({isShowCart,setIsShowCart}:{isShowCart:boolean,setIsShowCar
             <article className="cart" style={{right:(isShowCart?"0px":"-310px")}}>
             <button onClick={()=>setIsShowCart(!isShowCart)}>X</button>
             <div className="cartItems">
-                  {addToCart.map((cartItem)=>{
+                  {addToCart.map((cartItem,inx)=>{
                   return (
                     <div className="cartItem" key={cartItem.id}>
                         <img src={cartItem.img} alt="" />

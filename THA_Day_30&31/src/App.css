@@ -167,6 +167,7 @@ span {
   border-left: 2px solid aliceblue;
   height: 100vh;
   transition: right 500ms;
+overflow-y: hidden;
   text-align: center;
 }
 .cartShow {
