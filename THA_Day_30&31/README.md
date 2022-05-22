@@ -11,4 +11,4 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[VIEW PROJECT](https://github.com/suresh26601/devsnest_THAs/tree/master/THA_Day_30%2631)
+[VIEW PROJECT](https://ecomfront-end.netlify.app)
